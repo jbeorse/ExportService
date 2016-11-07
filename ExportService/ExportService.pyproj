@@ -20,6 +20,7 @@
     <RootNamespace>ExportService</RootNamespace>
     <InterpreterId>{abc83101-9620-43d0-b60c-d90c2d0c49d0}</InterpreterId>
     <InterpreterVersion>3.4</InterpreterVersion>
+    <NameOfLastUsedPublishProfile>export-service - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -43,6 +44,7 @@
     <Folder Include="ExportService\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="export-service - Web Deploy.pubxml" />
     <Content Include="requirements.txt" />
     <Content Include="ExportService\static\content\bootstrap.css" />
     <Content Include="ExportService\static\content\bootstrap.min.css" />
@@ -66,8 +68,6 @@
     <Content Include="ExportService\static\scripts\respond.js" />
     <Content Include="ExportService\static\scripts\respond.min.js" />
     <Content Include="ExportService\static\scripts\_references.js" />
-    <Content Include="ExportService\templates\about.html" />
-    <Content Include="ExportService\templates\contact.html" />
     <Content Include="ExportService\templates\index.html" />
     <Content Include="ExportService\templates\layout.html" />
   </ItemGroup>
