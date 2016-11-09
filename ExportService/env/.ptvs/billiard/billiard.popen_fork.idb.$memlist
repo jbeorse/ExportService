@@ -1,0 +1,7 @@
+Popen
+TERM_SIGNAL
+absolute_import
+os
+__all__
+errno
+sys

@@ -1,0 +1,6 @@
+absolute_import
+sqs
+connect_sqs
+ext
+connection
+unicode_literals

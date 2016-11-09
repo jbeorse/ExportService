@@ -1,0 +1,11 @@
+_DupFd
+spawn
+forkserver
+popen_fork
+absolute_import
+Popen
+__all__
+os
+reduction
+context
+io

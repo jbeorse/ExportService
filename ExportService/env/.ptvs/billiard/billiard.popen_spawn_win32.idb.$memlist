@@ -1,0 +1,16 @@
+signal
+WINEXE
+Popen
+os
+WINSERVICE
+CreateProcess
+sys
+absolute_import
+__all__
+msvcrt
+spawn
+TERMINATE
+_winapi
+reduction
+context
+io

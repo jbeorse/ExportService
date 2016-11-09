@@ -1,0 +1,8 @@
+defaults
+absolute_import
+unicode_literals
+Command
+codecs
+print_function
+upgrade
+pass1

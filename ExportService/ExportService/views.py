@@ -15,3 +15,14 @@ def home():
         title='Home Page',
         year=datetime.now().year,
     )
+
+@app.route('/export')
+def export():
+    """Renders the export test."""
+    return render_template(
+        'export.html',
+        name='test',
+        year=datetime.now().year,
+    )
+    
+    

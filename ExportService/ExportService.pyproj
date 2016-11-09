@@ -31,6 +31,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ExportService\background.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="runserver.py" />
     <Compile Include="ExportService\__init__.py" />
     <Compile Include="ExportService\views.py" />
@@ -40,11 +43,14 @@
     <Folder Include="ExportService\static\" />
     <Folder Include="ExportService\static\content\" />
     <Folder Include="ExportService\static\fonts\" />
+    <Folder Include="ExportService\static\csvs\" />
     <Folder Include="ExportService\static\scripts\" />
     <Folder Include="ExportService\templates\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="export-service - Web Deploy.pubxml" />
+    <Content Include="ExportService\static\csvs\testdata.csv" />
+    <Content Include="ExportService\templates\export.html" />
     <Content Include="requirements.txt" />
     <Content Include="ExportService\static\content\bootstrap.css" />
     <Content Include="ExportService\static\content\bootstrap.min.css" />

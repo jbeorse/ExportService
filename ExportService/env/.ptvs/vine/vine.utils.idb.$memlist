@@ -1,0 +1,9 @@
+WRAPPER_UPDATES
+WRAPPER_ASSIGNMENTS
+absolute_import
+unicode_literals
+partial
+_update_wrapper
+__all__
+wraps
+update_wrapper

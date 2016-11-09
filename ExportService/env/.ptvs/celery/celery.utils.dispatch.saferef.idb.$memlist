@@ -1,0 +1,12 @@
+BoundNonDescriptorMethodWeakref
+python_2_unicode_compatible
+weakref
+absolute_import
+unicode_literals
+traceback
+BoundMethodWeakref
+PY3
+__all__
+get_bound_method_weakref
+safe_ref
+sys
